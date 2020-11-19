@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Base">
+		<classes>
+			<class name="com.LalPathLabs.Utilities.BaseClass" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Login">
+		<classes>
+			<class name="com.LalPathLabs.Tests.LoginTests" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Add Patient">
+		<classes>
+			<class name="com.LalPathLabs.Tests.AddPatientTests" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

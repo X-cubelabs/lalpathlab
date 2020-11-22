@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="94241" started-at="2020-11-19T10:03:20Z" finished-at="2020-11-19T10:04:54Z">
+  <suite name="Suite" duration-ms="65187" started-at="2020-11-22T15:06:20Z" finished-at="2020-11-22T15:07:25Z">
     <groups>
     </groups>
-    <test name="Base" duration-ms="29079" started-at="2020-11-19T10:03:20Z" finished-at="2020-11-19T10:03:49Z">
+    <test name="Base" duration-ms="10515" started-at="2020-11-22T15:06:20Z" finished-at="2020-11-22T15:06:30Z">
       <class name="com.LalPathLabs.Utilities.BaseClass">
-        <test-method status="PASS" signature="loadBrowser()[pri:0, instance:com.LalPathLabs.Utilities.BaseClass@76f2b07d]" name="loadBrowser" is-config="true" duration-ms="29063" started-at="2020-11-19T10:03:20Z" finished-at="2020-11-19T10:03:49Z">
+        <test-method status="PASS" signature="loadBrowser()[pri:0, instance:com.LalPathLabs.Utilities.BaseClass@76f2b07d]" name="loadBrowser" is-config="true" duration-ms="10512" started-at="2020-11-22T15:06:20Z" finished-at="2020-11-22T15:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBrowser -->
       </class> <!-- com.LalPathLabs.Utilities.BaseClass -->
     </test> <!-- Base -->
-    <test name="Login" duration-ms="5455" started-at="2020-11-19T10:03:49Z" finished-at="2020-11-19T10:03:55Z">
+    <test name="Login" duration-ms="5479" started-at="2020-11-22T15:06:30Z" finished-at="2020-11-22T15:06:36Z">
       <class name="com.LalPathLabs.Tests.LoginTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.LalPathLabs.Tests.LoginTests@36b4cef0]" name="setUp" is-config="true" duration-ms="16" started-at="2020-11-19T10:03:49Z" finished-at="2020-11-19T10:03:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.LalPathLabs.Tests.LoginTests@36b4cef0]" name="setUp" is-config="true" duration-ms="70" started-at="2020-11-22T15:06:30Z" finished-at="2020-11-22T15:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Valid_Creds(java.lang.String, java.lang.String)[pri:1, instance:com.LalPathLabs.Tests.LoginTests@36b4cef0]" name="Valid_Creds" duration-ms="5135" started-at="2020-11-19T10:03:50Z" data-provider="TestData" finished-at="2020-11-19T10:03:55Z">
+        <test-method status="PASS" signature="Valid_Creds(java.lang.String, java.lang.String)[pri:1, instance:com.LalPathLabs.Tests.LoginTests@36b4cef0]" name="Valid_Creds" duration-ms="5060" started-at="2020-11-22T15:06:31Z" data-provider="TestData" finished-at="2020-11-22T15:06:36Z">
           <params>
             <param index="0">
               <value>
@@ -37,13 +37,13 @@
         </test-method> <!-- Valid_Creds -->
       </class> <!-- com.LalPathLabs.Tests.LoginTests -->
     </test> <!-- Login -->
-    <test name="Add Patient" duration-ms="59660" started-at="2020-11-19T10:03:55Z" finished-at="2020-11-19T10:04:54Z">
+    <test name="Add Patient" duration-ms="49152" started-at="2020-11-22T15:06:36Z" finished-at="2020-11-22T15:07:25Z">
       <class name="com.LalPathLabs.Tests.AddPatientTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.LalPathLabs.Tests.AddPatientTests@1d8d30f7]" name="setUp" is-config="true" duration-ms="0" started-at="2020-11-19T10:03:55Z" finished-at="2020-11-19T10:03:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.LalPathLabs.Tests.AddPatientTests@1d8d30f7]" name="setUp" is-config="true" duration-ms="3" started-at="2020-11-22T15:06:36Z" finished-at="2020-11-22T15:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Update_Order(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.LalPathLabs.Tests.AddPatientTests@1d8d30f7]" name="Update_Order" duration-ms="59644" started-at="2020-11-19T10:03:55Z" data-provider="TestData" finished-at="2020-11-19T10:04:54Z">
+        <test-method status="PASS" signature="Update_Order(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.LalPathLabs.Tests.AddPatientTests@1d8d30f7]" name="Update_Order" duration-ms="49133" started-at="2020-11-22T15:06:36Z" data-provider="TestData" finished-at="2020-11-22T15:07:25Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
         </test-method> <!-- Update_Order -->
       </class> <!-- com.LalPathLabs.Tests.AddPatientTests -->
       <class name="com.LalPathLabs.Utilities.BaseClass">
-        <test-method status="PASS" signature="begin()[pri:0, instance:com.LalPathLabs.Utilities.BaseClass@76f2b07d]" name="begin" is-config="true" duration-ms="235" started-at="2020-11-19T10:03:20Z" finished-at="2020-11-19T10:03:20Z">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.LalPathLabs.Utilities.BaseClass@76f2b07d]" name="begin" is-config="true" duration-ms="255" started-at="2020-11-22T15:06:19Z" finished-at="2020-11-22T15:06:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- begin -->
